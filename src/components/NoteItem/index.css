@@ -1,0 +1,27 @@
+
+
+.CardContainer{
+    padding:18px;
+    border:1px solid #aab8c8;
+    border-radius:8px;
+    min-width:200px;
+    flex:1 1 calc(25% - 18px);
+    
+    list-style-type: none;
+}
+
+@media screen and (max-width:576px) {
+    .CardContainer {
+        flex:1 1 100%;
+    }
+}
+.CardHeading {
+    font-size:22px;
+    font-weight:600;
+    color:#1e293b;
+    margin:0px;
+}
+.CardDescription {
+    color:#334155;
+    font-size:16px;
+}

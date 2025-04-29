@@ -1,0 +1,63 @@
+
+.NotesContainer {
+    margin:0px;
+    box-sizing:border-box;
+    padding:32px;
+}
+.Title {
+    text-align:center;
+    color:#4c63b6;
+    font-family:Bree Serif;
+}
+.NotesDataContainer {
+    padding:22px 0px;
+    padding-right:28px;
+    padding-left:18px;
+    box-shadow:3px 3px 8px #cbd5e1,-3px -3px 8px #cbd5e1;
+    margin-bottom:18px;
+}
+.Input {
+    border: 1px solid #cbd5e1;
+    padding: 8px 2px;
+    font-size: 18px;
+    margin-bottom: 8px;
+    width: 100%;
+    border-radius: 4px;
+}
+.TextInput {
+    border: 1px solid #cbd5e1;
+    padding: 8px 2px;
+    font-size: 18px;
+    margin-bottom: 8px;
+    width: 100%;
+    border-radius: 4px;
+}
+.ButtonDiv {
+    text-align: end;
+}
+.Button {
+    background-color: #4c63b6;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-size: 18px;
+  border: none;
+}
+.NoNotesItems {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:50%;
+}
+.NoNotesItemsContent {
+    text-align:center;
+}
+.NotesItems {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style-type:none;
+    width:100%;
+    padding:0px;
+}
